@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
-	<title>Pokemon</title>
+  <meta charset="utf-8"/>
+  <title>Pokemon</title>
+  <style>
+    strong{
+      font-size: 150%;
+      font-family: "Impact";
+    }
+  </style>
 </head>
-<body>
+<body
+background="pokemon2.jpg">
 <h1>Pokemon</h1>
 <div class="pokemones">
  <select id= "pokemon1">
-              <option value="0" selected="">Selecciona tu pokemon peleador 1</option>
-              <option value="pikachu" class="pikachu">Pikachu</option>
-              <option value="charmander" class="charmander">Charmander</option>
-              <option value="squartle" class="squartle">Squartle</option>
-              <option value="bulbasaur" class="bulbasaur">Bulbasaur</option>
-            </select>
+  <option value="0" selected="">Selecciona tu pokemon peleador 1</option>
+  <option value="Pikachu" class=" Pikachu">Pikachu</option>
+  <option value="Charmander" class="Charmander">Charmander</option>
+  <option value="Squartle" class="Squartle">Squartle</option>
+  <option value="Bulbasaur" class="Bulbasaur">Bulbasaur</option>
+</select>
 <select id= "pokemon2">
-              <option value="0" selected="">Selecciona tu pokemon peleador 2</option>
-              <option value="pikachu" class="pikachu">Pikachu</option>
-              <option value="charmander" class="charmander">Charmander</option>
-              <option value="squartle" class="squartle">Squartle</option>
-              <option value="bulbasaur" class="bulbasaur">Bulbasaur</option>
-            </select>
+  <option value="0" selected="">Selecciona tu pokemon peleador 2</option>
+  <option value="Pikachu" class="Pikachu">Pikachu</option>
+  <option value="Charmander" class="Charmander">Charmander</option>
+  <option value="Squartle" class="Squartle">Squartle</option>
+  <option value="Bulbasaur" class="Bulbasaur">Bulbasaur</option>
+</select>
 </div>
 <button class="botoncin" onclick="pelear()">A jugar</button>
-<div id="espacio"></div>
+<strong><div id="espacio"></div></strong>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

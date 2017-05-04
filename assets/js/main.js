@@ -33,10 +33,10 @@ function pelear(){
 		alert("Error, no puedes elegir el mismo pokemon")
 	}else{ 
 
-	peleador1.atacar(peleador2);
-    var espacioPelea= document.getElementById("espacio");
-	var mensaje = (peleador1.nombre + " atacó a " + peleador2.nombre + " y le queda " + peleador2.vida + " de vida restante");
-	espacioPelea.innerHTML =mensaje;
+		peleador1.atacar(peleador2);
+		var espacioPelea= document.getElementById("espacio");
+		var mensaje = (peleador1.nombre + " atacó a " + peleador2.nombre + " y solo le queda " + peleador2.vida + " puntos de vida");
+		espacioPelea.innerHTML =mensaje;
 	}
 //alert (peleador1.nombre + " atacó a " + peleador2.nombre + " y a " + peleador2.nombre + " le queda "+ peleador2.vida + " de vida restante")
 }

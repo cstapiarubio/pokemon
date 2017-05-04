@@ -34,22 +34,21 @@ function pelear(){
 	}else{ 
 
 	peleador1.atacar(peleador2);
-<<<<<<< HEAD
-	alert (peleador1.nombre + " atacó a " + peleador2.nombre + " y a " + peleador2.nombre + " le queda "+ peleador2.vida + " de vida restante")
-}
-}
-
-
-//pikachu.atacar(charmander)
-//console.log(charmander.vida)
-=======
-    var espacioPelea= document.getElementById("espacio");
-	var mensaje = (peleador1.nombre + " atacó a " + peleador2.nombre + " y le queda " + peleador2.vida + " de vida restante");
+	var espacioPelea= document.getElementById("espacio");
+	var mensaje = (peleador1.nombre + " atacó a " + peleador2.nombre + " y solo le queda " + peleador2.vida + " de vida");
 	espacioPelea.innerHTML =mensaje;
 	}
-//alert (peleador1.nombre + " atacó a " + peleador2.nombre + " y a " + peleador2.nombre + " le queda "+ peleador2.vida + " de vida restante")
+
 }
+
 
 //pikachu.atacar(charmander)
 //console.log(charmander.vida)
->>>>>>> master
+
+    
+//alert (peleador1.nombre + " atacó a " + peleador2.nombre + " y a " + peleador2.nombre + " le queda "+ peleador2.vida + " de vida restante")
+
+
+//pikachu.atacar(charmander)
+//console.log(charmander.vida)
+

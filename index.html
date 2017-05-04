@@ -5,13 +5,20 @@
 </head>
 <body>
 <h1>Pokemon</h1>
- <select class="form-control">
-              <option value="0">Selecciona tu pokemon</option>
-              <option value="urbana">Pikachu</option>
-              <option value="treking">Charmander</option>
-              <option value="electrica">Squartle</option>
-              <option value="estatica">Bulbasaur</option>
+<div>
+<select class="pokemon1">
+              <option value="0" selected="">Selecciona tu pokemon 1</option>
+              <option value="urbana" class="pikachu">Pikachu</option>
+              <option value="treking" class="charmander">Charmander</option>
             </select>
+            
+<select class="pokemon2">
+            <option value="0" selected="">Selecciona tu pokemon 2</option>
+            <option value="electrica" class ="squartle">Squartle</option>
+            <option value="estatica" class="bulbasaur">Bulbasaur</option>
+            </select>
+</div>
+<button class="btn btn-lg btn-primary btn-block submit-btn" onclick="Pokemon.atacar()">A pelear</button>           
 <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -18,6 +18,12 @@ function Pokemon(nombre, color, nivelDeAmistad, vida,poderDeAtaque){
 
 var pikachu=new Pokemon("Pikachu", "amarillo",0,100,10)
 var charmander=new Pokemon("Charmander", "rojo",0,20,80)
+var squartle=new Pokemon("Squartle", "azul",0,80,50)
+var charmander=new Pokemon("Bulbasaur", "verde",0,70,180)
+
+function pelear(pokemon1, pokemon2){
+	
+}
 
 pikachu.atacar(charmander)
 console.log(charmander.vida)

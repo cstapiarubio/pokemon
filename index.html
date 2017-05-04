@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8"/>
 	<title>Pokemon</title>
 </head>
 <body>
 <h1>Pokemon</h1>
-<div>
-<select class="pokemon1">
-              <option value="0" selected="">Selecciona tu pokemon 1</option>
-              <option value="urbana" class="pikachu">Pikachu</option>
-              <option value="treking" class="charmander">Charmander</option>
+<div class="pokemones">
+ <select id= "pokemon1">
+              <option value="0" selected="">Selecciona tu pokemon peleador 1</option>
+              <option value="pikachu" class="pikachu">Pikachu</option>
+              <option value="charmander" class="charmander">Charmander</option>
+              <option value="squartle" class="squartle">Squartle</option>
+              <option value="bulbasaur" class="bulbasaur">Bulbasaur</option>
             </select>
-            
-<select class="pokemon2">
-            <option value="0" selected="">Selecciona tu pokemon 2</option>
-            <option value="electrica" class ="squartle">Squartle</option>
-            <option value="estatica" class="bulbasaur">Bulbasaur</option>
+<select id= "pokemon2">
+              <option value="0" selected="">Selecciona tu pokemon peleador 2</option>
+              <option value="pikachu" class="pikachu">Pikachu</option>
+              <option value="charmander" class="charmander">Charmander</option>
+              <option value="squartle" class="squartle">Squartle</option>
+              <option value="bulbasaur" class="bulbasaur">Bulbasaur</option>
             </select>
 </div>
-<button class="btn btn-lg btn-primary btn-block submit-btn" onclick="Pokemon.atacar()">A pelear</button>           
+<button class="botoncin" onclick="pelear()">A jugar</button>
+<div id="espacio"></div>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+

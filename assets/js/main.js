@@ -26,11 +26,16 @@ function pelear(){
 	var poke1 = document.getElementById("pokemon1").value;
 	var poke2 = document.getElementById("pokemon2").value;
 
-	var peleador1 =new Pokemon(poke1, peleador1.color,peleador1.nivelDeAmistad,100,10);
-	var peleador2 =new Pokemon(poke2, peleador1.color,peleador2.nivelDeAmistad,20,80);
+	var peleador1 =new Pokemon(poke1, "color pokemon",0,100,10);
+	var peleador2 =new Pokemon(poke2,"color pokemon",0,20,80);
+
+	if (peleador1.nombre==peleador2.nombre){
+		alert("Error, no puedes elegir el mismo pokemon")
+	}else{ 
 
 	peleador1.atacar(peleador2);
-	alert (peleador1.nombre + "atacó a " + peleador2.nombre + " y " + peleador2.nombre + " tiene "+ peleador2.vida + " de vida restante")
+	alert (peleador1.nombre + " atacó a " + peleador2.nombre + " y a " + peleador2.nombre + " le queda "+ peleador2.vida + " de vida restante")
+}
 }
 
 

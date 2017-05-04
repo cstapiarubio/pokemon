@@ -16,8 +16,8 @@ function Pokemon(nombre, color, nivelDeAmistad, vida,poderDeAtaque){
 	}
 }
 
-var pikachu=new Pokemon("Pikachu", "amarillo",100)
-var charmander=new Pokemon("Charmander", "rojo",20)
+var pikachu=new Pokemon("Pikachu", "amarillo",0,100,10)
+var charmander=new Pokemon("Charmander", "rojo",0,20,80)
 
-pikachu.atacar
+pikachu.atacar(charmander)
 console.log(charmander.vida)
